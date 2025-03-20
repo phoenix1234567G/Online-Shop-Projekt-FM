@@ -1,6 +1,6 @@
 # Online-Shop-Projekt-FM
-Anforderungen:
-  Benutzerkonten + (Datenbank)
+# Anforderungen:
+#  Benutzerkonten + (Datenbank)
     Login
     Registrieren
   Startseite
