@@ -1,0 +1,323 @@
+<html>
+    <head>
+        <title>BIOVITA.DE</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <head>
+    <body>
+
+<!--NavBar-->
+<nav class="navbar navbar-expand-lg" style="background-color: #034411;">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">BIOVITA.DE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+         
+          <ul class="navbar-nav me-auto mb-6 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Verkauf</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Obst</a></li>
+                  <li><a class="dropdown-item" href="#">Gemüse</a></li>
+                  <li><a class="dropdown-item" href="#">Milchprodukte</a></li>
+                  <li><a class="dropdown-item" href="#">Gewürze</a></li>
+                  <li><a class="dropdown-item" href="#">Backwaren</a></li>
+                </ul>
+            </li>
+          </ul>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Suchen" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Suchen</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+<!--Überschrift-->          
+<header class="bg-light text-center py-5">
+  <div class ="container">
+    <h1 class = "display-4 text-success-emphasis">BIO VITA'S Premium Obst</h1>
+    <p class = "lead">Entdecke die Vielfalt der Natur: Frisches Bio-Obst in höchster Qualität – nachhaltig, regional und direkt vom Erzeuger.
+      Wir arbeiten eng mit ausgewählten Bio-Bauern zusammen, um dir saisonale Früchte mit unvergleichlichem Geschmack zu bieten.
+      Von saftigen Äpfeln bis zu exotischen Mangos – bei uns findest du alles, was dein Herz begehrt, ohne Kompromisse bei Qualität und Umweltbewusstsein</p>
+  </div>
+  </div>
+           
+<!-- Produkt Display -->
+<main class="container py-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+   
+    <div class="col w-25 p-3">
+      <div class="card h-100">
+        <img src="apfel.png" class="card-img-top" style ="height:200 px; object-fit:cover" alt="Obst">
+        <div class="card-body">
+          <h5 class="card-title">Apfel</h5>
+          <p class="card-text">knackig und aromatisch<br>Preis: 77.99€</p>
+        </div>
+        <div class="card-footer text-center">
+          <button class="btn btn-secondary">Details</button>
+        </div>
+      </div>
+    </div>
+
+<!-- Mitte-->      
+    <div class="col w-25 p-3">
+      <div class="card h-100">
+        <img src="mango.png" class="card-img-top" style ="height:200 px; object-fit:cover" alt="Obst">
+        <div class="card-body">
+          <h5 class="card-title">Mango</h5>
+          <p class="card-text">Exotisch, süß und saftig<br>Preis: 69.99€</p>
+        </div>
+        <div class="card-footer text-center">
+          <button class="btn btn-secondary">Details</button>
+        </div>
+      </div>
+    </div>
+
+<!--rechts-->
+<div class="col w-25 p-3">
+<div class="card h-100">
+<img src="weintrauben.png" class="card-img-top" style ="height:200 px; object-fit:cover" alt="Obst">
+<div class="card-body">
+  <h5 class="card-title">Weintrauben</h5>
+  <p class="card-text">Ein echter Klassiker - Knackig, süß und handlich<br>Preis: 40€</p>
+</div>
+<div class="card-footer text-center">
+  <button class="btn btn-secondary">Details</button>
+</div>
+</div>
+</div>
+
+<!--RECHTS RECHTS-->
+<div class="col w-25 p-3">
+<div class="card h-100">
+<img src="banane.png" class="card-img-top" alt="Obst">
+<div class="card-body">
+  <h5 class="card-title">Banane</h5>
+  <p class="card-text">Weich, süß und voller Energie - Empfolen von Ashton Hall<br>Preis: 99.99€</p>
+</div>
+<div class="card-footer text-center">
+  <button class="btn btn-secondary">Details</button>
+</div>
+</div>
+</div>
+
+<!--2. Zeile LINKS 1-->
+<div class="col w-25 p-3">
+    <div class="card h-100">
+    <img src="orange.webp" class="card-img-top" alt="Obst">
+    <div class="card-body">
+      <h5 class="card-title">Orange</h5>
+      <p class="card-text">Fruchtig-frisch mit viel Vitamin C<br>Preis: 79.99€</p>
+    </div>
+    <div class="card-footer text-center">
+      <button class="btn btn-secondary">Details</button>
+    </div>
+    </div>
+    </div>
+
+<!--2. Zeile LINKS 2-->
+<div class="col w-25 p-3">
+    <div class="card h-100">
+    <img src="heidelbeeren.png" class="card-img-top" alt="Obst">
+    <div class="card-body">
+      <h5 class="card-title">Heidelbeeren</h5>
+      <p class="card-text">Kleine Powerpakete voller Antioxidantien<br>Preis: 19.99€</p>
+    </div>
+    <div class="card-footer text-center">
+      <button class="btn btn-secondary">Details</button>
+    </div>
+    </div>
+    </div>
+
+<!--2. Zeile RECHTS 1-->
+<div class="col w-25 p-3">
+    <div class="card h-100">
+    <img src="melone.png" class="card-img-top" alt="Obst">
+    <div class="card-body">
+      <h5 class="card-title">Wassermelone</h5>
+      <p class="card-text">Saftig und süß<br>Preis: 39.99€</p>
+    </div>
+    <div class="card-footer text-center">
+      <button class="btn btn-secondary">Details</button>
+    </div>
+    </div>
+    </div>
+
+<!--2. Zeile RECHTS 2-->
+<div class="col w-25 p-3">
+    <div class="card h-100">
+    <img src="avocado.png" class="card-img-top" alt="Obst">
+    <div class="card-body">
+      <h5 class="card-title">Avocado</h5>
+      <p class="card-text">Cremig, nahrhaft und voller gesunder Fette<br>Preis: 29.99€</p>
+    </div>
+    <div class="card-footer text-center">
+      <button class="btn btn-secondary">Details</button>
+    </div>
+    </div>
+    </div>
+</div>
+</div>
+
+
+<!--Was zeichnet uns aus-->          
+<div class="container my-5">
+  <div class="row align-items-center">
+    <div class="col-md-6 bg-light text-center py-5">
+      <h2>Unser Bio-Obst – Natur pur auf Ihrem Teller</h2>
+      <p>Bei uns steht Qualität an erster Stelle: Unser Bio-Obst wird mit Liebe zur Natur und Respekt vor der Umwelt angebaut. Ob saftige Äpfel, süße Beeren oder knackige Birnen – jedes Stück Obst erzählt die Geschichte von nachhaltiger Landwirtschaft und sorgfältiger Pflege. Wir arbeiten eng mit zertifizierten Bio-Bauern zusammen, die auf Pestizide und chemische Dünger verzichten, um Ihnen reine, gesunde und geschmackvolle Früchte zu bieten.
+        Unser Ziel ist es, die Schätze der Natur direkt zu Ihnen nach Hause zu bringen. Deshalb legen wir großen Wert auf kurze Lieferwege und saisonale Ernten, die nicht nur Ihren Gaumen erfreuen, sondern auch die Umwelt schonen. Von der Blüte am Baum bis zur Frucht in Ihrer Hand – wir stehen für Transparenz, Frische und Verantwortung.
+        Entdecken Sie unser vielfältiges Sortiment an Bio-Obst und genießen Sie den Unterschied, den echte Naturqualität macht. Ob als gesunder Snack, für kreative Rezepte oder einfach pur – mit unserem Obst bringen wir ein Stück Natur in Ihren Alltag.</p>
+    </div>
+    <div class="col-md-6">
+      <img src="Tier_Haltung_cattle-2213644_1920.jpg" alt="Beispielbild" class="img-fluid">
+    </div>
+  </div>
+</div>
+
+
+<!-- Produktliste -->
+<div class="row text-center mb-5">
+        <h3 class="mb-4">Unsere beliebtesten Obstsorten</h3>
+        <div class="col-md-4">
+          <img src="apfel.png" class="img-fluid rounded mb-2" alt="Apfel">
+          <h5>Äpfel</h5>
+          <p>Knackig, süß und voll mit Vitaminen.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="mango.png" class="img-fluid rounded mb-2" alt="Birne">
+          <h5>Mango</h5>
+          <p>Saftig und weich – ein Genuss für alle Sinne.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="weintrauben.png" class="img-fluid rounded mb-2" alt="Trauben">
+          <h5>Trauben</h5>
+          <p>Perfekt zum Naschen oder für den Obstsalat.</p>
+        </div>
+</div>
+
+
+<!--Kundenbewertung-->
+<div class="container my-5">
+  <h3 class="mb-4 text-center">Was unsere Kunden sagen</h3>
+  <div class="row text-center">
+
+    <!-- Kunde 1 -->
+    <div class="col-md-4 mb-4">
+      <img src="" class="rounded-circle mb-2" alt="Anonym">
+      <h5>Abraham L.</h5>
+      <p class="text-muted">München</p>
+      <blockquote class="blockquote">
+        <p>„Frischer geht's nicht! Die Äpfel schmecken wie direkt vom Baum.“</p>
+      </blockquote>
+    </div>
+
+    <!-- Kunde 2 -->
+    <div class="col-md-4 mb-4">
+      <img src="lebron.png" class="rounded-circle mb-2" alt="Lebron J.">
+      <h5>Lebron. J</h5>
+      <p class="text-muted">Köln</p>
+      <blockquote class="blockquote">
+        <p>„Super Service und Qualität. Ich freue mich jede Woche auf meine Lieferung.“</p>
+      </blockquote>
+    </div>
+
+    <!-- Kunde 3 -->
+    <div class="col-md-4 mb-4">
+      <img src="" class="rounded-circle mb-2" alt="Anonym">
+      <h5>Karl L.</h5>
+      <p class="text-muted">Hamburg</p>
+      <blockquote class="blockquote">
+        <p>„Endlich Obst, dem ich vertrauen kann. Bio wie es sein soll.“</p>
+      </blockquote>
+    </div>
+  </div>
+</div>
+<!--Q&A-->
+<div class="container my-5">
+  <h3 class="mb-4">Häufige Fragen zu unserem Bio-Obst</h3>
+  <div class="accordion" id="faqAccordion">
+
+    <!-- Frage 1 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Woher stammt euer Bio-Obst?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Unser Obst stammt überwiegend von zertifizierten Bio-Höfen in Deutschland und Österreich. Wir legen großen Wert auf Regionalität und Nachhaltigkeit.
+        </div>
+      </div>
+    </div>
+
+    <!-- Frage 2 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Ist euer Obst wirklich komplett unbehandelt?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Ja! Unsere Produkte sind frei von chemischen Düngemitteln, Pestiziden oder Konservierungsstoffen. Alles ist nach EU-Bio-Richtlinien zertifiziert.
+        </div>
+      </div>
+    </div>
+
+    <!-- Frage 3 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Wie lange ist das Obst haltbar?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Das hängt von der Obstsorte ab – in der Regel ist unser Obst bei richtiger Lagerung (kühl und trocken) etwa 5–10 Tage haltbar.
+        </div>
+      </div>
+    </div>
+
+    <!-- Frage 4 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Kann ich auch ein Abo für wöchentliche Lieferung abschließen?
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Ja, wir bieten flexible Obstkisten-Abos an – wöchentlich, alle zwei Wochen oder monatlich. Du kannst das Abo jederzeit pausieren oder kündigen.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  <!-- Bestellen -->
+  <div class="text-center mb-5">
+    <h4>Jetzt entdecken und bestellen</h4>
+    <p>Direkt vom Feld zu dir nach Hause – natürlich, frisch und bio.</p>
+    <a href="#" class="btn btn-success">Zum Shop</a>
+  </div>
+</div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-4">
+    <p>&copy; 2025 BIOVITA GmbH | <a href="#">Impressum</a> | <a href="#">Datenschutz</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
